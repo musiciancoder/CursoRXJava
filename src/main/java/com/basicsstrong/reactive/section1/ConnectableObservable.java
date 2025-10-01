@@ -10,7 +10,7 @@ public class ConnectableObservable {
 	public static void main(String[] args) throws InterruptedException {
 		
 		/*
-		 * A ConnectableObservable resembles an ordinary Observable, except that it does not beginemitting items when it is subscribed to, but only when its connect method is called. In this way youcan wait for all intended Observers to Observable.subscribe to the Observablebefore the Observable begins emitting items. 
+		 * A ConnectableObservable resembles an ordinary Observable, except that it does not begin emitting items when it is subscribed to, but only when its connect method is called. In this way youcan wait for all intended Observers to Observable.subscribe to the Observablebefore the Observable begins emitting items. 
 		 */
 		io.reactivex.rxjava3.observables.@NonNull ConnectableObservable<@NonNull Long> source = Observable.interval(2,TimeUnit.SECONDS).publish(); // cad 2 segundos
 		
