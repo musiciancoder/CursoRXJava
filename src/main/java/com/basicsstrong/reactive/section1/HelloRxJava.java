@@ -3,7 +3,8 @@ package com.basicsstrong.reactive.section1;
 import io.reactivex.rxjava3.core.Observable;
 import io.reactivex.rxjava3.disposables.Disposable;
 
-public class HelloRxJava {
+public class HelloRxJava { //este es un ejemplo clasico de codigo asincrono con observables (los observables per se no son ni sincronos ni asincronos segun
+	//copilot). Para un ejemplo clasico de codigo Sincrono con observables ver clase IntervalEmmiter2
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
